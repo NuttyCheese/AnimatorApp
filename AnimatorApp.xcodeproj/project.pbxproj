@@ -75,17 +75,65 @@
 		89530469282542D300DC5A7A /* AnimatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				8953046A282542D300DC5A7A /* AppDelegate.swift */,
-				8953046C282542D300DC5A7A /* SceneDelegate.swift */,
-				8953046E282542D300DC5A7A /* ViewController.swift */,
-				89530470282542D300DC5A7A /* Main.storyboard */,
-				89530473282542D500DC5A7A /* Assets.xcassets */,
-				89530475282542D500DC5A7A /* LaunchScreen.storyboard */,
-				89530478282542D500DC5A7A /* Info.plist */,
-				8953047E28254C6700DC5A7A /* Model.swift */,
-				895304802825572200DC5A7A /* DataManager.swift */,
+				8953048628255C1600DC5A7A /* Models */,
+				8953048728255C1F00DC5A7A /* DataManager */,
+				8953048328255BF800DC5A7A /* ViewControllers */,
+				8953048428255C0200DC5A7A /* Stroyboards */,
+				8953048228255BEF00DC5A7A /* App */,
+				8953048528255C0D00DC5A7A /* Resources */,
 			);
 			path = AnimatorApp;
+			sourceTree = "<group>";
+		};
+		8953048228255BEF00DC5A7A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8953046A282542D300DC5A7A /* AppDelegate.swift */,
+				8953046C282542D300DC5A7A /* SceneDelegate.swift */,
+				89530478282542D500DC5A7A /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8953048328255BF800DC5A7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8953046E282542D300DC5A7A /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8953048428255C0200DC5A7A /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				89530470282542D300DC5A7A /* Main.storyboard */,
+				89530475282542D500DC5A7A /* LaunchScreen.storyboard */,
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		8953048528255C0D00DC5A7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89530473282542D500DC5A7A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8953048628255C1600DC5A7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8953047E28254C6700DC5A7A /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8953048728255C1F00DC5A7A /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				895304802825572200DC5A7A /* DataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 		B3CB9751B56CA53E257500E1 /* Pods */ = {
@@ -366,7 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q82X97DSZ5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimatorApp/Info.plist;
+				INFOPLIST_FILE = AnimatorApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -395,7 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q82X97DSZ5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimatorApp/Info.plist;
+				INFOPLIST_FILE = AnimatorApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
